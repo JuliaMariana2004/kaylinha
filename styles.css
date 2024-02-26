@@ -1,0 +1,85 @@
+/* Reset de estilos básicos para garantir uma aparência consistente em diferentes navegadores */
+body, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://i.pinimg.com/originals/0b/e7/48/0be748204b77ec2211c3230442e468a9.gif');
+    color: #fdfdfd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    flex-direction: column; /* Alinha itens verticalmente no centro da página */
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Alinha itens verticalmente no centro da página */
+    max-width: 600px;
+    margin: 20px;
+    background-image: url(https://gifs.eco.br/wp-content/uploads/2022/06/gifs-de-estrelas-brilhando-14.gif);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.header {
+    text-align: center;
+   
+}
+
+h1 {
+    color: #ffffff; /* Cor laranja */
+text-align: center;
+    width: 700px;
+
+}
+
+.main-content {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: right;
+}
+
+footer p {
+    font-weight: bold;
+}
+
+/* styles.css */
+.thumbnail-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 80px);
+    gap: 10px;
+    margin-left: 20px; /* Adiciona margem à esquerda para separar da container */
+}
+
+.thumbnail-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.thumbnail-grid img:hover {
+    transform: scale(1.1);
+}
+
+button{
+    width: 500px;
+    right: 200px;
+    background-color: red;
+}
+
+#mensagem{
+    color: red;
+    width: 100px;
+}
